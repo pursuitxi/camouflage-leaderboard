@@ -1,0 +1,1666 @@
+{
+  "tasks": [
+    {
+      "id": "cod",
+      "name": "Camouflaged Object Detection",
+      "datasets": [
+        {
+          "id": "camo",
+          "name": "CAMO",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.762
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.816
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.761
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.686
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.727
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.349
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.864
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.643
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.879
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.311
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.634
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.777
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.283
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.722
+              }
+            }
+          ]
+        },
+        {
+          "id": "casia",
+          "name": "CASIA",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.483
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.66
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.46
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.461
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.619
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.157
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.82
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.34
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.833
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.039
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.428
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.557
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.166
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.433
+              }
+            }
+          ]
+        },
+        {
+          "id": "chameleon",
+          "name": "CHAMELEON",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.844
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.853
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.847
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.72
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.703
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.304
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.839
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.639
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.88
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.386
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.723
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.839
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.229
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.814
+              }
+            }
+          ]
+        },
+        {
+          "id": "cod10k",
+          "name": "COD10K",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.736
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.757
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.729
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.685
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.74
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.216
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.844
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.649
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.881
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.373
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.566
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.717
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.165
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.709
+              }
+            }
+          ]
+        },
+        {
+          "id": "coverage",
+          "name": "COVERAGE",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.164
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.277
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.107
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.131
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.233
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.176
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.862
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.39
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.862
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.032
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.143
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.208
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.224
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.174
+              }
+            }
+          ]
+        },
+        {
+          "id": "gsd",
+          "name": "GSD",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.862
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.881
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.867
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.856
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.875
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.55
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.879
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.227
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.876
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.287
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.837
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.87
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.324
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.843
+              }
+            }
+          ]
+        },
+        {
+          "id": "istd",
+          "name": "ISTD",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.929
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.884
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.905
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.922
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.901
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.724
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.789
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.381
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.784
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.13
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.862
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.923
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.162
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.855
+              }
+            }
+          ]
+        },
+        {
+          "id": "msd",
+          "name": "MSD",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.855
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.893
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.855
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.766
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.825
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.337
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.752
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.25
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.763
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.159
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.804
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.824
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.271
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.764
+              }
+            }
+          ]
+        },
+        {
+          "id": "nc4k",
+          "name": "NC4K",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.795
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.825
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.801
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.761
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.795
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.319
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.867
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.731
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.898
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.412
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.677
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.788
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.253
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.771
+              }
+            }
+          ]
+        },
+        {
+          "id": "pmd",
+          "name": "PMD",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.74
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.744
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.749
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.505
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.681
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.178
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.843
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.122
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.829
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.264
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.681
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.764
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.144
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.698
+              }
+            }
+          ]
+        },
+        {
+          "id": "sbu",
+          "name": "SBU",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.859
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.864
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.854
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.834
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.848
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.698
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.743
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.316
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.752
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.066
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.813
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.86
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.172
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.845
+              }
+            }
+          ]
+        },
+        {
+          "id": "trans10k",
+          "name": "Trans10K",
+          "metrics": [
+            "Cmeasure"
+          ],
+          "higherIsBetter": {
+            "Cmeasure": true
+          },
+          "models": [
+            {
+              "name": "FEDER",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.948
+              }
+            },
+            {
+              "name": "FSPNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.948
+              }
+            },
+            {
+              "name": "HetNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.948
+              }
+            },
+            {
+              "name": "HitNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.79
+              }
+            },
+            {
+              "name": "IML-ViT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.695
+              }
+            },
+            {
+              "name": "ManTraNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.613
+              }
+            },
+            {
+              "name": "SAM_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.898
+              }
+            },
+            {
+              "name": "SAM2",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.46
+              }
+            },
+            {
+              "name": "SAM2_GTBBox",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.921
+              }
+            },
+            {
+              "name": "SegGPT",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.276
+              }
+            },
+            {
+              "name": "SINet",
+              "paper": "https://arxiv.org/abs/2004.09030",
+              "code": "https://github.com/DengPingFan/SINet",
+              "year": 2020,
+              "results": {
+                "Cmeasure": 0.778
+              }
+            },
+            {
+              "name": "SINet-V2",
+              "paper": "https://arxiv.org/abs/2108.00128",
+              "code": "https://github.com/GewelsJI/SINet-V2",
+              "year": 2021,
+              "results": {
+                "Cmeasure": 0.831
+              }
+            },
+            {
+              "name": "UniverSeg",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.331
+              }
+            },
+            {
+              "name": "ZoomNet",
+              "paper": null,
+              "code": null,
+              "year": null,
+              "results": {
+                "Cmeasure": 0.937
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
